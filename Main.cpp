@@ -1,6 +1,5 @@
 /***********************************
  * Program 03
- * Written by Mark M Bowman
  ***********************************/ 
 
 #include <iostream>
@@ -14,7 +13,7 @@ void extra(list &);
 
 /***********************************
  * Main
- * Test function - DO NOT CHANGE
+ * Test function 
  ***********************************/ 
 void main()
 { int age;
@@ -86,34 +85,6 @@ void main()
   a.backwards(cout);
   cout << endl;
 
-// Extra credit
-
-//  extra(a);
 }
 
-/***********************************
- * Extra Credit
- * Test function - DO NOT CHANGE
- ***********************************/ 
-/*
-void extra(list &a)
-{ int i,n;
-  node_ptr map[4];
-  string first,last;
 
-// Find node
-
-  cout << endl;
-  cout << "Enter First and Last name: ";
-  cin >> first >> last;
-
-  n = a.findall(first,last,map,4);
-
-// Display forwards
-
-  cout << endl;
-  cout << "Find List\n--------------\n";
-  for(i=0;i<n;i++)
-    map[i]->put(cout);
-}
-*/
